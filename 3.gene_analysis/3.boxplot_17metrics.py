@@ -7,8 +7,8 @@ from scipy.stats import entropy, iqr, skew, kurtosis
 from scipy.signal import find_peaks
 
 # ===== 路径设置 =====
-hbb_path = "/mnt/zzbnew/Public/DataSet-Genotype-Phenotype/yqliu/0_64k_chr11_ouputbatches/chr11_5225463_5229395_reverse_HBB/"
-save_path = "/mnt/zzbnew/peixunban/changan/try/HBB_boxplot/"
+hbb_path = "./AS_result/HBB"
+save_path = "./plot_results/"
 
 os.makedirs(save_path, exist_ok=True)
 

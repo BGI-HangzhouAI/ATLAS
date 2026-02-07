@@ -285,9 +285,9 @@ ATLAS/
 - **Long sequences (>131K)**: Use chunked strategy with appropriate overlap
 - **Memory-constrained**: Reduce `--block_rows` or `--chunk_size` parameters
 
-## 8. Citation
+## 8. Citation and Acknowledgments
 
-If you use ATLAS in your research, please cite:
+<!-- If you use ATLAS in your research, please cite:
 
 ```bibtex
 @article{atlas2026,
@@ -297,7 +297,11 @@ If you use ATLAS in your research, please cite:
   year={2026},
   url={https://github.com/BGI-HangzhouAI/ATLAS}
 }
-```
+``` -->
+
+- **Genomic Foundation Models**: Genos series and similar pretrained models
+- **FlashAttention**: Dao et al. (2022) for memory-efficient attention algorithms
+- **Statistical Methods**: Benjamini-Hochberg procedure for multiple testing correction
 
 ## 9. License
 
@@ -329,18 +333,6 @@ This project is released under the [MIT License](LICENSE).
 
 ## 11. Contact
 
-For questions and support:
-- **Issues**: Please open an issue on GitHub
-- **Email**: your.email@institution.org
+For project-related questions, please raise an issue or contact the project maintainer at xxx@zhejianglab.org.
 
-## 12. Acknowledgments
-
-- **Genomic Foundation Models**: Genos-10B and similar pretrained models
-- **FlashAttention**: Dao et al. (2022) for memory-efficient attention algorithms
-- **Statistical Methods**: Benjamini-Hochberg procedure for multiple testing correction
-
----
-
-**Version**: 1.0  
-**Last Updated**: February 7, 2026  
-**Compatibility**: Python 3.8+
+For general inquiries, you are also welcome to contact us at opensource@zhejianglab.org.

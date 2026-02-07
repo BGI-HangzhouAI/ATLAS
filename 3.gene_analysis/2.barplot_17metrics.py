@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 读取数据
-df = pd.read_csv('/mnt/zzbnew/peixunban/changan/try2/plot_resulets/5genes_17stats_pvalues_with_BH_correction.csv')
+df = pd.read_csv('./17stats_pvalues_with_BH_correction.csv')
 
 # 提取基因名（只保留 reverse_ 后面的部分）
 def extract_gene_name(full_name):
@@ -100,8 +100,8 @@ for idx, metric in enumerate(metrics):
 plt.tight_layout()
 
 # 保存图片
-plt.savefig('/mnt/zzbnew/peixunban/changan/try2/plot_resulets/significant_genes_BH_17pvalue.png', dpi=300, bbox_inches='tight')
-plt.savefig('/mnt/zzbnew/peixunban/changan/try2/plot_resulets/significant_genes_BH_17pvalue.pdf', bbox_inches='tight')
+plt.savefig('./plot_results/significant_genes_BH_17pvalue.png', dpi=300, bbox_inches='tight')
+plt.savefig('./plot_results/significant_genes_BH_17pvalue.pdf', bbox_inches='tight')
 
 plt.show()
 

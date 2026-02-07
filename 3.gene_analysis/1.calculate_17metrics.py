@@ -6,8 +6,8 @@ from statsmodels.stats.multitest import multipletests
 from scipy.stats import entropy, iqr, skew, kurtosis
 from scipy.signal import find_peaks
 
-root_path = "/mnt/zzbnew/peixunban/changan/try2/AS_result"
-save_path = "/mnt/zzbnew/peixunban/changan/try2/plot_resulets/"
+root_path = "./AS_result"
+save_path = "./plot_results/"
 
 os.makedirs(save_path, exist_ok=True)
 
