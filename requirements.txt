@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scipy
+statsmodels
+scikit-learn
+tqdm
+torch
+transformers>=4.36.0
+accelerate
