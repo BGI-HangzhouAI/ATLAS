@@ -15,7 +15,7 @@ ATLAS (Attention-based Locus Analysis System) is a computational framework that 
 ## 2. ATLAS Pipeline Overview
 
 ### Figure 1. ATLAS pipeline overview
-[![Figure 1. ATLAS pipeline overview](./image/figure1.png)](./image/figure1.pdf)
+[![ ATLAS Workflow](./image/figure1.png)](./image/figure1.pdf)
 
 ATLAS operates through four sequential steps:
 
