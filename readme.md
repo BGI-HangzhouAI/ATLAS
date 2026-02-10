@@ -14,6 +14,9 @@ ATLAS (Attention-based Locus Analysis System) is a computational framework that 
 
 ## 2. ATLAS Pipeline Overview
 
+### Figure 1. ATLAS pipeline overview
+[![Figure 1. ATLAS pipeline overview](./image/figure1.png)](./image/figure1.pdf)
+
 ATLAS operates through four sequential steps:
 
 ### Step 1: Sequence Preparation
@@ -82,12 +85,15 @@ Within candidate genes, ATLAS conducts base-level differential attention analysi
 
 Install required Python packages:
 
-```bash
+<!-- ```bash
 pip install torch transformers
 pip install pandas numpy scipy statsmodels
 pip install matplotlib seaborn
 pip install biopython tqdm pyarrow
 pip install flash-attn  # For FlashAttention-based extraction
+``` -->
+```bash
+pip install -r requirements.txt  # If available
 ```
 
 ### Model Download
@@ -298,16 +304,17 @@ ATLAS/
   url={https://github.com/BGI-HangzhouAI/ATLAS}
 }
 ``` -->
-
+<!-- 
 - **Genomic Foundation Models**: Genos series and similar pretrained models
 - **FlashAttention**: Dao et al. (2022) for memory-efficient attention algorithms
-- **Statistical Methods**: Benjamini-Hochberg procedure for multiple testing correction
+- **Statistical Methods**: Benjamini-Hochberg procedure for multiple testing correction -->
+We would like to acknowledge the Human Pangenome Reference Consortium (BioProject ID: PRJNA730823) and its funder, the National Human Genome Research Institute (NHGRI).
 
 ## 9. License
 
 This project is released under the [MIT License](LICENSE).
 
-## 10. Troubleshooting
+<!-- ## 10. Troubleshooting
 
 ### Common Issues
 
@@ -335,4 +342,4 @@ This project is released under the [MIT License](LICENSE).
 
 For project-related questions, please raise an issue or contact the project maintainer at xxx@zhejianglab.org.
 
-For general inquiries, you are also welcome to contact us at opensource@zhejianglab.org.
+For general inquiries, you are also welcome to contact us at opensource@zhejianglab.org. -->
